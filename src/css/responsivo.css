@@ -27,7 +27,7 @@
     }
 }
 
-/* @media(max-width:1024px){
+@media(max-width:1024px){
     .home{
         justify-content: center;
         min-height: 85vh;
@@ -37,13 +37,9 @@
         margin-bottom: 10%;
     }
 
-    button{
-        margin-bottom: 10%;
-    }
-
 }
 
-@media(max-width:768px){
+/* @media(max-width:768px){
     .projetos{
         margin-top: 50px;
     }
@@ -63,4 +59,4 @@
         padding: 30px;
     }
     
-} */
+} */ 
