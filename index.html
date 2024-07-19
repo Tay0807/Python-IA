@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de previsão com python</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,39 +13,78 @@
     <link rel="website icon" type="png" href="./src/imagens/Capa.png">
 </head>
 <body>
-    <section class="home">
-        <div class="informacoes">
-            <h1>Projeto Python IA: <span>Inteligência Artificial e Previsões</span></h1>
-            <p>Em um banco fictício, há a necessidade de desenvolver um modelo de score de crédito para classificar automaticamente seus clientes em três categorias: Ruim, Ok ou Bom. A motivação é melhorar a eficiência na análise de crédito e oferecer decisões financeiras mais precisas.</p>
-        </div>
-        <div class="container">
-            <!-- <div style="--r:-15;" class="glass">
-                <img class="tam_img" src="./src/imagens/foto_um.png" alt="Imagem ilustrativa do pricing">
+    <section id="section_inicial">
+        <div>
+            <h1>PYTHON IA: INTELIGÊNCIA ARTIFICIAL E PREVISÕES</h1>
+            <div id="container_info_init">
+                <div class="container_a_txt">
+                    <p class="texto_init">Em um banco fictício, há a necessidade de desenvolver um modelo de score de crédito para classificar automaticamente seus clientes em três categorias: Ruim, Ok ou Bom. A motivação é melhorar a eficiência na análise de crédito e oferecer decisões financeiras mais precisas.</p>
+                    <a href="">Ver vídeo</a>
+                    <a href="">Sobre</a>
+                </div>
             </div>
-            <div style="--r:5;" class="glass">
-                <img class="tam_img" src="./src/imagens/foto_dois.png" alt="Imagem ilustrativa do site usado para pegar as cotações">
-            </div>
-            <div style="--r:25;" class="glass">
-                <img class="tam_img" src="./src/imagens/foto_tres.png" alt="Imagem ilustrativa do email enviado">
-            </div> -->
-            <button class="button">
-                <a href="#projetos">Vídeo do projeto</a>
-                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
-                  <path
-                    clip-rule="evenodd"
-                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
-                    fill-rule="evenodd"
-                  ></path>
-                </svg>
-              </button>
         </div>
     </section>
 
-    
+    <section id="section_etapas">
+        <div>
+            <p class="titulo">Etapas do projeto:</p>
+        </div>
+        <div id="container_etapas">
+            <div class="container_card_etapas">
+                <div class="card_etapas">
+                    <p class="card_etapas_titulo">Leitura da Base de Dados</p>
+                    <p class="card_etapas_texto" >Importação e preparação dos dados, garantindo que estejam prontos para análise.</p>
+                    <img src="./src/imagens/img_correct.png" alt="">
+                </div>
+                <div class="card_etapas">
+                    <p class="card_etapas_titulo">Treinamento das Inteligências Artificiais:</p>
+                    <p class="card_etapas_texto">Aplicação de técnicas de machine learning para treinar diferentes modelos de IA com os dados coletados.</p>
+                    <img src="./src/imagens/img_correct.png" alt="">
+                </div>
+            </div>
 
-    <section class="projetos" id="projetos">
-        <div id="container_video">
-            <video src="./src/imagens/Projeto IA.mp4" controls poster="./src/imagens/Capa.png"></video>
+            <div class="container_card_etapas">
+                <div class="card_etapas">
+                    <p class="card_etapas_titulo">Verificação da Acurácia dos Modelos:</p>
+                    <p class="card_etapas_texto">Verificação da Acurácia dos Modelos:
+                        Avaliação dos modelos treinados para determinar qual oferece a melhor precisão na previsão dos scores dos clientes.</p>
+                    <img src="./src/imagens/img_correct.png" alt="">
+                </div>
+                <div class="card_etapas">
+                    <p class="card_etapas_titulo">Previsão com Nova Base de Dados:</p>
+                    <p class="card_etapas_texto">Utilização da IA para prever os scores dos clientes em uma nova base de dados, garantindo a aplicabilidade e eficiência do projeto.</p>
+                    <img src="./src/imagens/img_correct.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_modelos">
+        <div>
+            <p class="titulo_modelos">Modelos de IA usados:</p>
+        </div>
+
+        <div class="container_modelos">
+            <div class="card_modelo">
+                <p class="subtitulo_modelo">Árvore de decisão</p>
+                <p class="descricao_modelo">Uma árvore de decisão é um algoritmo de aprendizado de máquina supervisionado usado tanto para classificação quanto para regressão. Em outras palavras, pode prever categorias distintas (como sim ou não) e valores numéricos (como o lucro em reais).
+                    Semelhante a um fluxograma, a árvore de decisão organiza-se em nós (nós de decisão) que se conectam hierarquicamente.</p>
+                <a href="https://blog.somostera.com/data-science/arvores-de-decisa">Mais informações</a>
+            </div>
+
+            <div class="card_modelo">
+                <p class="subtitulo_modelo">KNN</p>
+                <p class="descricao_modelo">O algoritmo KNN é um método não paramétrico que utiliza a proximidade dos exemplos de treinamento para fazer classificações ou regressões. Ele parte do princípio de que instâncias semelhantes estão próximas umas das outras no espaço das características. Ou seja, se um ponto está perto de outros pontos de uma certa classe, é provável que ele também pertença a essa classe.</p>
+                <a href="https://blog.somostera.com/data-science/arvores-de-decisa">Mais informações</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_video" data-aos="fade-up" data-aos-duration="1500">
+        <p class="titulo sectio_videotxt">Veja um vídeo do projeto funcionando:</p>
+        <div class="div_frame_video" data-aos="zoom-in" data-aos-delay="500">
+            <video src="./src/imagens/Proejto IA.mp4" poster="./src/imagens/Capa.png" width="500" height="50%" controls></video>
         </div>
     </section>
 </body>
