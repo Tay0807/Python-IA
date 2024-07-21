@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto de previsão com python</title>
+    <title>Projeto de Previsão com Python</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,33 +11,34 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
     <link rel="website icon" type="png" href="./src/imagens/Capa.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <section id="section_inicial">
         <div>
-            <h1>PYTHON IA: INTELIGÊNCIA ARTIFICIAL E PREVISÕES</h1>
-            <div id="container_info_init">
+            <h1 data-aos="fade-down">PYTHON IA: INTELIGÊNCIA ARTIFICIAL E PREVISÕES</h1>
+            <div id="container_info_init" data-aos="fade-up" data-aos-delay="300">
                 <div class="container_a_txt">
                     <p class="texto_init">Em um banco fictício, há a necessidade de desenvolver um modelo de score de crédito para classificar automaticamente seus clientes em três categorias: Ruim, Ok ou Bom. A motivação é melhorar a eficiência na análise de crédito e oferecer decisões financeiras mais precisas.</p>
-                    <a href="">Ver vídeo</a>
-                    <a href="">Sobre</a>
+                    <a href="" data-aos="zoom-in" data-aos-delay="500">Ver vídeo</a>
+                    <a href="" data-aos="zoom-in" data-aos-delay="700">Sobre</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="section_etapas">
+    <section id="section_etapas" data-aos="fade-up" data-aos-delay="300">
         <div>
             <p class="titulo">Etapas do projeto:</p>
         </div>
         <div id="container_etapas">
             <div class="container_card_etapas">
-                <div class="card_etapas">
+                <div class="card_etapas" data-aos="fade-right" data-aos-delay="500">
                     <p class="card_etapas_titulo">Leitura da Base de Dados</p>
-                    <p class="card_etapas_texto" >Importação e preparação dos dados, garantindo que estejam prontos para análise.</p>
+                    <p class="card_etapas_texto">Importação e preparação dos dados, garantindo que estejam prontos para análise.</p>
                     <img src="./src/imagens/img_correct.png" alt="">
                 </div>
-                <div class="card_etapas">
+                <div class="card_etapas" data-aos="fade-right" data-aos-delay="700">
                     <p class="card_etapas_titulo">Treinamento das Inteligências Artificiais:</p>
                     <p class="card_etapas_texto">Aplicação de técnicas de machine learning para treinar diferentes modelos de IA com os dados coletados.</p>
                     <img src="./src/imagens/img_correct.png" alt="">
@@ -45,13 +46,12 @@
             </div>
 
             <div class="container_card_etapas">
-                <div class="card_etapas">
+                <div class="card_etapas" data-aos="fade-left" data-aos-delay="900">
                     <p class="card_etapas_titulo">Verificação da Acurácia dos Modelos:</p>
-                    <p class="card_etapas_texto">Verificação da Acurácia dos Modelos:
-                        Avaliação dos modelos treinados para determinar qual oferece a melhor precisão na previsão dos scores dos clientes.</p>
+                    <p class="card_etapas_texto">Avaliação dos modelos treinados para determinar qual oferece a melhor precisão na previsão dos scores dos clientes.</p>
                     <img src="./src/imagens/img_correct.png" alt="">
                 </div>
-                <div class="card_etapas">
+                <div class="card_etapas" data-aos="fade-left" data-aos-delay="1100">
                     <p class="card_etapas_titulo">Previsão com Nova Base de Dados:</p>
                     <p class="card_etapas_texto">Utilização da IA para prever os scores dos clientes em uma nova base de dados, garantindo a aplicabilidade e eficiência do projeto.</p>
                     <img src="./src/imagens/img_correct.png" alt="">
@@ -60,23 +60,23 @@
         </div>
     </section>
 
-    <section id="section_modelos">
+    <section id="section_modelos" data-aos="fade-up" data-aos-delay="300">
         <div>
             <p class="titulo_modelos">Modelos de IA usados:</p>
         </div>
 
         <div class="container_modelos">
-            <div class="card_modelo">
+            <div class="card_modelo" data-aos="flip-left" data-aos-delay="500">
                 <p class="subtitulo_modelo">Árvore de decisão</p>
                 <p class="descricao_modelo">Uma árvore de decisão é um algoritmo de aprendizado de máquina supervisionado usado tanto para classificação quanto para regressão. Em outras palavras, pode prever categorias distintas (como sim ou não) e valores numéricos (como o lucro em reais).
                     Semelhante a um fluxograma, a árvore de decisão organiza-se em nós (nós de decisão) que se conectam hierarquicamente.</p>
-                <a href="https://blog.somostera.com/data-science/arvores-de-decisa">Mais informações</a>
+                <a target=”_blank” href="https://www.w3schools.com/python/python_ml_decision_tree.asp">Mais informações</a>
             </div>
 
-            <div class="card_modelo">
+            <div class="card_modelo" data-aos="flip-right" data-aos-delay="700">
                 <p class="subtitulo_modelo">KNN</p>
                 <p class="descricao_modelo">O algoritmo KNN é um método não paramétrico que utiliza a proximidade dos exemplos de treinamento para fazer classificações ou regressões. Ele parte do princípio de que instâncias semelhantes estão próximas umas das outras no espaço das características. Ou seja, se um ponto está perto de outros pontos de uma certa classe, é provável que ele também pertença a essa classe.</p>
-                <a href="https://blog.somostera.com/data-science/arvores-de-decisa">Mais informações</a>
+                <a target=”_blank” href="https://www.w3schools.com/python/python_ml_knn.asp">Mais informações</a>
             </div>
         </div>
     </section>
@@ -87,5 +87,9 @@
             <video src="./src/imagens/Proejto IA.mp4" poster="./src/imagens/Capa.png" width="500" height="50%" controls></video>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
